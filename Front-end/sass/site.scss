@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import "variables";
+@import "header";
+@import "button";
+@import "form";
+@import "content";
+@import "film-grid";
+@import "film-page";
+@import "film-order";
+
+
+body {
+  font-family: Ubuntu;
+}

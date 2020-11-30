@@ -1,0 +1,44 @@
+﻿.form-group {
+  label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-control {
+    height: inherit;
+    border: 1px solid $gray;
+    border-radius: 4px;
+    padding: 10px 14px;
+    display: block;
+    outline: none;
+    font-size: 16px;
+    transition: .5s;
+    width: 100%;
+
+    &:focus {
+      box-shadow: 0 0 7px 0.2rem rgba($orange, 0.25);
+      border: 1px solid $orange;
+    }
+  }
+
+  .btn {
+    margin-top: 15px;
+  }
+}
+
+.form-vertical {
+  .form-group {
+    margin-bottom: 25px;
+  }
+
+  .btn {
+    margin-top: 0;
+  }
+}
+
+
+.auth-form {
+  width: 500px;
+  margin: 0 auto;
+}

@@ -1,0 +1,86 @@
+﻿.film-grid {
+  overflow: hidden;
+  margin: 0 -25px;
+
+  .film-item {
+    width: calc(25% - 50px);
+    height: 300px;
+    margin: 0 25px 25px;
+    float: left;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+  }
+
+  .film-item:hover .film-meta {
+    display: none;
+  }
+
+  .film-item:hover .film-meta-full {
+    display: block;
+    transition: .5s;
+  }
+
+  .film-image {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .film-meta {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 10px;
+    transition: .5s;
+  }
+
+  .film-meta-full {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+  }
+
+  .film-name {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+
+  .film-category {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .film-description {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .film-button {
+    position: absolute;
+    bottom: 25px;
+    text-align: center;
+  }
+
+}
+
+.load-more {
+  text-align: center;
+  margin-top: 25px;
+
+  .btn {
+    font-size: 22px;
+    padding: 15px 20px;
+  }
+}

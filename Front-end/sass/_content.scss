@@ -1,0 +1,31 @@
+﻿.content {
+  padding: 25px 50px;
+}
+
+.filter-form {
+  overflow: hidden;
+
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+
+  border-bottom: 1px solid $gray;
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  .form-group {
+    width: 250px;
+    float: left;
+    margin-right: 25px;
+  }
+
+  .btn {
+    margin-top: 22px;
+    width: 90px;
+  }
+}
