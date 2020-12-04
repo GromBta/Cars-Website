@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema 25D</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/site.css" rel="stylesheet">
+</head>
+<body>
+<header class="main-header">
+    <div class="logo">
+        <a href="/"></a>
+    </div>
+
+    <nav class="header-nav">
+        <ul>
+            <li class="nav-item"><a href="#">Item 1</a></li>
+            <li class="nav-item"><a href="#">Item 2</a></li>
+            <li class="nav-item"><a href="#">Item 3</a></li>
+            <li class="nav-item"><a href="#">Item 4</a></li>
+            <li class="nav-item"><a href="#">Item 5</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="content">
+    <div class="filter-form">
+        <form action="">
+            <div class="left">
+                <div class="form-group">
+                    <label for="genre">Жанр</label>
+                    <select class="form-control" id="genre" name="genre">
+                        <option value="">Option 1</option>
+                        <option value="">Option 2</option>
+                        <option value="">Option 3</option>
+                        <option value="">Option 4</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="age">Возраст</label>
+                    <select class="form-control" id="age" name="age">
+                        <option value="">Option 1</option>
+                        <option value="">Option 2</option>
+                        <option value="">Option 3</option>
+                        <option value="">Option 4</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="search">Поиск</label>
+                    <input class="form-control" id="search" name="search">
+                </div>
+            </div>
+            <div class="right">
+                <input class="btn" type="submit" value="Искать">
+            </div>
+        </form>
+        <div class="order-dates">
+            <a href="#">Сегодня</a>
+            <a href="#">Завтра</a>
+            <a href="#">5 декабря</a>
+            <a href="#">6 декабря</a>
+        </div>
+    </div>
+
+    <div class="film-list">
+        <div class="film-item">
+            <div class="film-image">
+                <img alt="" src="/images/films/film2.jpg">
+            </div>
+            <div class="film-sessions">
+                <div class="film-data">
+                    <div class="film-name">
+                        Film Name
+                    </div>
+                    <div class="film-meta">
+                        Film Category
+                    </div>
+                    <div class="film-description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda commodi deserunt eaque eos error excepturi exercitationem illo ipsa officia officiis praesentium quae quasi suscipit tempora temporibus totam, velit voluptatem.
+                    </div>
+                </div>
+                <ul>
+                    <li><a class="session" href="#">10:00</a></li>
+                    <li><a class="session" href="#">12:00</a></li>
+                    <li><a class="session" href="#">15:00</a></li>
+                    <li><a class="session" href="#">18:00</a></li>
+                    <li><a class="session" href="#">22:00</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="load-more">
+        <a class="btn" href="#">Загрузить еще</a>
+    </div>
+</section>
+
+
+<footer class="main-footer">
+    <div class="row">
+        <div class="col-12 col-sm-6">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-12 col-sm-6">
+            <div class="text-right">Cinema 25D - 2020</div>
+        </div>
+    </div>
+</footer>
+
+<script src="/js/jquery.js"></script>
+<script src="/js/site.js"></script>
+</body>
+</html>

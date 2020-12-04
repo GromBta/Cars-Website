@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
 @import "variables";
 @import "header";
+@import "footer";
 @import "button";
 @import "form";
 @import "content";
 @import "film-grid";
 @import "film-page";
 @import "film-order";
+@import "profile-page";
 
+:root {
+  --swiper-theme-color: $orange;
+}
 
 body {
   font-family: Ubuntu;

@@ -24,4 +24,10 @@
       background: darken($light-blue, 10%);
     }
   }
+
+
+  &:disabled {
+    background: lighten($orange, 10%);
+    cursor: not-allowed;
+  }
 }

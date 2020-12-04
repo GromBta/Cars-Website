@@ -1,0 +1,54 @@
+﻿.profile-page {
+  .top-nav {
+    ul {
+      list-style: none;
+    }
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      text-align: center;
+      text-decoration: none;
+      padding: 12px 0;
+      font-size: 17px;
+      font-weight: bold;
+      color: #333;
+      margin-right: 15px;
+
+      &.active, &:hover {
+        color: $orange;
+      }
+    }
+  }
+}
+
+.orders {
+  .order-item {
+    background: #f1f1f1;
+    border: 1px solid $gray;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .order-date {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .film-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .order-data {
+    margin-bottom: 15px;
+    font-size: 17px;
+
+    strong {
+      font-size: 14px;
+    }
+  }
+}

@@ -10,6 +10,10 @@
 
   border-bottom: 1px solid $gray;
 
+  form {
+    overflow: hidden;
+  }
+
   .left {
     float: left;
   }
@@ -27,5 +31,63 @@
   .btn {
     margin-top: 22px;
     width: 90px;
+  }
+
+  .order-dates {
+
+    a {
+      background: #fff;
+      text-decoration: none;
+      padding: 10px 15px;
+      font-size: 17px;
+      border: 1px solid $gray;
+      margin-right: 15px;
+      display: inline-block;
+      color: #000;
+
+      &:hover {
+        background: darken(#fff, 10%);
+      }
+    }
+  }
+}
+
+
+.slider {
+  margin: 0 auto 25px;
+  width: 80%;
+}
+
+.social-buttons {
+  text-align: center;
+
+  .social-button {
+    display: inline-block;
+    margin: 25px;
+    width: 200px;
+    border-radius: 10px;
+    line-height: 60px;
+    height: 60px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    }
+  }
+
+
+  img {
+    width: 28px;
+    margin-right: 10px;
+  }
+
+  .vk {
+    background-color: #507299;
+  }
+
+  .instagram {
+    background: linear-gradient(to right, #D41180 0, #F5275A 50%, #FF4438 100%);
   }
 }

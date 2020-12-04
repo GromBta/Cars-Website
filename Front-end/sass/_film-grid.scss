@@ -1,15 +1,12 @@
 ﻿.film-grid {
   overflow: hidden;
-  margin: 0 -25px;
 
   .film-item {
-    width: calc(25% - 50px);
     height: 300px;
-    margin: 0 25px 25px;
-    float: left;
     position: relative;
     z-index: 5;
     overflow: hidden;
+    margin-bottom: 25px;
   }
 
   .film-item:hover .film-meta {
@@ -82,5 +79,71 @@
   .btn {
     font-size: 22px;
     padding: 15px 20px;
+  }
+}
+
+.film-list {
+  .film-item {
+    overflow: hidden;
+    background: #f1f1f1;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 1px solid $gray;
+  }
+
+  .film-image {
+    width: 200px;
+    float: left;
+    margin-right: 25px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .film-data {
+    margin-bottom: 25px;
+  }
+
+  .film-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .film-meta {
+    font-size: 17px;
+    color: #333;
+  }
+
+  .film-description {
+    margin: 10px 0;
+    font-size: 15px;
+  }
+
+  .film-sessions {
+    width: calc(100% - 225px);
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      margin-bottom: 15px;
+      margin-right: 15px;
+      display: inline-block;
+    }
+
+    .session {
+      background: #fff;
+      color: #333;
+      border: 1px solid $gray;
+      text-decoration: none;
+      padding: 10px 15px;
+      font-size: 17px;
+
+      &:hover {
+        background: darken(#fff, 10%);
+      }
+    }
   }
 }
